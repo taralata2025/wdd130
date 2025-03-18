@@ -1,3 +1,8 @@
+:root {
+  --height: auto;
+  --text-allign: center;
+  --width: 150px;
+ }
 nav {
   background-color: darkblue;
   padding: 10px;
@@ -8,18 +13,18 @@ nav a {
     padding: 20px;
   }
   h1 {
-    color: darkblue;
+    color: rgb(0, 12, 139);
   } 
   img {
-    width: 150px;
-    height: auto;
+    width: var(width);
+    height: var(height);
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
   }
   main img {
-    width: 150px;
-    height: auto;
+    width: var(width);
+    height: var(height);
   }
   p { padding: 0;}
   
@@ -34,7 +39,7 @@ nav a {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-allign);
   }
   aside img {
     width: 200px;
@@ -43,5 +48,5 @@ nav a {
   footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-allign);
   }
