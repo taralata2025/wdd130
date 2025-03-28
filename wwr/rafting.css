@@ -41,12 +41,11 @@ h1, h2 {
 p {
   color: #333;
 }
-.social a {
-  text-decoration: none;
-}
+
+
 
 .social a img {
-  
+  text-decoration: none;
   height: 30px; 
   margin: 5px;
 }
