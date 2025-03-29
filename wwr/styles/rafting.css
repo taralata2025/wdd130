@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #FFFFFF; 
-    --secondary-color: #33A1FD; 
+    --primary-color: #33A1FD;
+    --secondary-color:#FFFFFF;  
     --accent1-color: #F79824; 
     --accent2-color: #31393c; 
     --heading-font: 'Alfa Slab One', sans-serif;
@@ -15,10 +15,15 @@
     margin: 0 auto;
   }
   
-  header, main, footer {
-    padding: 20px;
+  header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+    
   }
-  
+  main{
+    padding: 20px;
+
+  }
   header img {
     height: 100px; 
   }
