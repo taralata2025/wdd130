@@ -26,6 +26,7 @@ header {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
+  background-color: rgba(51, 51, 51, 0.8); 
 }
 
 header img {
@@ -57,8 +58,292 @@ nav a:hover {
 h1,
 h2 {
   text-align: center; 
-  
-  
+}
+
+main.home-page {
+  padding: 20px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+
+main.home-page .hero {
+  position: relative; 
+  margin-bottom: 30px;
+}
+
+main.home-page .hero img {
+  width: 100%;
+  display: block; 
+  object-fit: cover; /* Ensure image covers the area without distortion */
+  max-height: 600px; /* Limit maximum height of the hero image */
+}
+
+main.home-page .hero .hero-heading {                             
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  background-color: rgba(0, 0, 0, 0.445); 
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+main.home-page .hero .hero-heading h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+
+main.home-page .newsletter-signup {
+  background-color: #1b181863;
+  padding: 30px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+main.home-page .newsletter-signup h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+main.home-page .newsletter-signup form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+main.home-page .newsletter-signup form div {
+  width: 100%;
+  max-width: 300px;
+}
+
+main.home-page .newsletter-signup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+main.home-page .newsletter-signup input[type="text"],
+main.home-page .newsletter-signup input[type="email"] {
+  width: calc(100% - 11px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+main.home-page .newsletter-signup .signup-button {
+  background-color: #041628a8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+main.home-page .newsletter-signup .signup-button:hover {
+  background-color: #0056b3;
+}
+
+/* Call to Action Section Styles */
+main.home-page .call-to-action {
+  background-color: #2e01553e;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+main.home-page .call-to-action h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+main.home-page .call-to-action p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+main.home-page .call-to-action .view-trips-button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+main.home-page .call-to-action .view-trips-button:hover {
+  background-color: #1e7e34;
+}
+
+/* Company Info Grid Section Styles */
+main.home-page .company-info-grid {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+main.home-page .company-info-grid h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+main.home-page .company-info-grid .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 30px;
+  margin-top: 20px;
+}
+
+main.home-page .company-info-grid .grid-item {
+  background-color: #0acb7464;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+main.home-page .company-info-grid .grid-item img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+main.home-page .company-info-grid .grid-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #3985d7;
+}
+
+main.home-page .company-info-grid .grid-item p {
+  font-size: 1em;
+  color: #555;
+}
+ 
+main.trips-page {
+    padding: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+main.trips-page .hero {
+    background-color: #3b2d2d76; 
+    color: #333; 
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px; 
+}
+
+main.trips-page .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+main.trips-page .hero p {
+    font-size: 1.5em;
+    color: #501111f5;
+}
+
+main.trips-page .trip-details {
+    margin-bottom: 40px; 
+}
+
+main.trips-page .trip-details h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+main.trips-page .trip-card {
+    background-color: #ffffff00; 
+    border: 1px solid #dddddd6c; 
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px; 
+    align-items: center; 
+}
+
+main.trips-page .trip-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+main.trips-page .trip-card h3 {
+    font-size: 1.5em;
+    color: #007bff; 
+    margin-bottom: 10px;
+    grid-column: 1 / -1; 
+    text-align: center;
+}
+
+main.trips-page .trip-card strong {
+    font-weight: bold;
+}
+
+main.trips-page .trip-card .book-now {
+    background-color: #28a745; 
+    color: rgba(255, 255, 255, 0.984);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    grid-column: 1 / -1; 
+    text-align: center;
+}
+
+main.trips-page .trip-card .book-now:hover {
+    background-color: #1e7e34; 
+}
+
+main.trips-page .trip-summary-table {
+    margin-bottom: 40px;
+}
+
+main.trips-page .trip-summary-table h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+main.trips-page .trip-summary-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+main.trips-page .trip-summary-table th,
+main.trips-page .trip-summary-table td {
+    border: 1px solid #7e6f6f;
+    padding: 8px;
+    text-align: left;
+}
+
+main.trips-page .trip-summary-table th {
+    background-color: #544444;
+    font-weight: bold;
+}
+
+main.trips-page .trip-summary-table td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+main.trips-page .trip-summary-table td a:hover {
+    text-decoration: underline;
 }
 
 .hero h1 {
@@ -232,6 +517,9 @@ footer {
   justify-content: flex-end;
   align-items: center;
   padding: 20px;
+  background-color: #2222227e;
+  color: var(--secondary-color);
+  margin-top: 20px;
 }
 
 footer .sociallinks ul {
