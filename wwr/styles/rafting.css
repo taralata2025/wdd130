@@ -211,6 +211,22 @@ button[type="submit"]:hover {
   max-width: 200px;
   height: auto;
 }
+#team .team-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+#team figure {
+  margin: 10px;
+  text-align: center;
+}
+
+#team img {
+  max-width: 200px;
+  height: auto;
+}
 footer {
   display: flex;
   justify-content: flex-end;
