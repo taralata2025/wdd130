@@ -95,7 +95,7 @@ main.home-page .newsletter-signup p {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  align-items: en;
+  align-items: end;
 }
 main.home-page .newsletter-signup form {
   display: flex;
@@ -129,7 +129,7 @@ main.home-page .newsletter-signup .signup-button {
   font-size: 1em;
 }
 main.home-page .newsletter-signup .signup-button:hover {
-  background-color: #0056b3;
+  background-color: #e9eff6;
 }
 main.home-page .call-to-action {
   background-color: #2e01553e;
@@ -156,7 +156,7 @@ main.home-page .call-to-action .view-trips-button {
   font-size: 1.1em;
 }
 main.home-page .call-to-action .view-trips-button:hover {
-  background-color: #1e7e34;
+  background-color: #dffce6;
 }
 /* Company Info Grid Section Styles */
 main.home-page .company-info-grid {
@@ -174,7 +174,7 @@ main.home-page .company-info-grid .grid-container {
   margin-top: 20px;
 }
 main.home-page .company-info-grid .grid-item {
-  background-color: #0acb7464;
+  background-color: #79d7ad64;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
