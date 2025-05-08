@@ -1,7 +1,7 @@
 :root {
   --primary-color: #333c31c5;
   --secondary-color: #ffffffed;
-  --accent1-color: #F79824;
+  --accent1-color: #041628a8;
   --accent2-color: #5133fd;
   --heading-font: 'Alfa Slab One', sans-serif;
   --text-font: 'Montserrat', sans-serif;
@@ -69,7 +69,7 @@ main.home-page .hero .hero-heading {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
-  background-color: rgba(0, 0, 0, 0.445); 
+  background-color:var(--accent1-color);
   color: white;
   padding: 20px;
   border-radius: 8px;
@@ -129,10 +129,10 @@ main.home-page .newsletter-signup .signup-button {
   font-size: 1em;
 }
 main.home-page .newsletter-signup .signup-button:hover {
-  background-color: #e9eff6;
+  background-color: #2d3f31;
 }
 main.home-page .call-to-action {
-  background-color: #2e01553e;
+  background-color: #1b181863;
   padding: 40px 20px;
   border-radius: 8px;
   margin-bottom: 40px;
@@ -147,7 +147,7 @@ main.home-page .call-to-action p {
   margin-bottom: 20px;
 }
 main.home-page .call-to-action .view-trips-button {
-  background-color: #28a745;
+  background-color: #041628a8;
   color: white;
   padding: 12px 25px;
   border: none;
@@ -156,7 +156,7 @@ main.home-page .call-to-action .view-trips-button {
   font-size: 1.1em;
 }
 main.home-page .call-to-action .view-trips-button:hover {
-  background-color: #dffce6;
+  background-color: #2d3f31;
 }
 /* Company Info Grid Section Styles */
 main.home-page .company-info-grid {
@@ -174,7 +174,7 @@ main.home-page .company-info-grid .grid-container {
   margin-top: 20px;
 }
 main.home-page .company-info-grid .grid-item {
-  background-color: #79d7ad64;
+  background-color:#1b181863;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
@@ -189,12 +189,12 @@ main.home-page .company-info-grid .grid-item img {
 main.home-page .company-info-grid .grid-item h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: #3985d7;
+  color: var(--secondary-color);
 }
 
 main.home-page .company-info-grid .grid-item p {
   font-size: 1em;
-  color: #555;
+  color: var(--secondary-color);
 }
  
 main.trips-page {
@@ -204,8 +204,8 @@ main.trips-page {
 }
 
 main.trips-page .hero {
-    background-color: #3b2d2d76; 
-    color: #333; 
+  background-color: #2222227e;
+    color: var(--secondary-color);
     padding: 40px 20px;
     text-align: center;
     border-radius: 8px;
@@ -219,7 +219,7 @@ main.trips-page .hero h1 {
 
 main.trips-page .hero p {
     font-size: 1.5em;
-    color: #501111f5;
+    color: var(--secondary-color);
 }
 
 main.trips-page .trip-details {
@@ -228,13 +228,13 @@ main.trips-page .trip-details {
 
 main.trips-page .trip-details h2 {
     font-size: 2em;
-    color: #333;
+    color: var(--secondary-color);
     margin-bottom: 20px;
     text-align: center; 
 }
 
 main.trips-page .trip-card {
-    background-color: #ffffff00; 
+  background-color: #2222227e;
     border: 1px solid #dddddd6c; 
     border-radius: 8px;
     padding: 20px;
@@ -253,7 +253,7 @@ main.trips-page .trip-card img {
 
 main.trips-page .trip-card h3 {
     font-size: 1.5em;
-    color: #007bff; 
+    color: var(--secondary-color);
     margin-bottom: 10px;
     grid-column: 1 / -1; 
     text-align: center;
@@ -264,8 +264,8 @@ main.trips-page .trip-card strong {
 }
 
 main.trips-page .trip-card .book-now {
-    background-color: #28a745; 
-    color: rgba(255, 255, 255, 0.984);
+  background-color: #2222227e;
+    color: var(--secondary-color);
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -277,7 +277,7 @@ main.trips-page .trip-card .book-now {
 }
 
 main.trips-page .trip-card .book-now:hover {
-    background-color: #1e7e34; 
+    background-color:var(--accent2-color)
 }
 
 main.trips-page .trip-summary-table {
@@ -286,7 +286,7 @@ main.trips-page .trip-summary-table {
 
 main.trips-page .trip-summary-table h2 {
     font-size: 2em;
-    color: #333;
+    color: var(--secondary-color);
     margin-bottom: 20px;
     text-align: center; 
 }
@@ -299,18 +299,18 @@ main.trips-page .trip-summary-table table {
 
 main.trips-page .trip-summary-table th,
 main.trips-page .trip-summary-table td {
-    border: 1px solid #7e6f6f;
+    border: 1px solid #b8b0b0;
     padding: 8px;
     text-align: left;
 }
 
 main.trips-page .trip-summary-table th {
-    background-color: #544444;
+  background-color: #2222227e;
     font-weight: bold;
 }
 
 main.trips-page .trip-summary-table td a {
-    color: #007bff;
+  color: var(--secondary-color);
     text-decoration: none;
 }
 
